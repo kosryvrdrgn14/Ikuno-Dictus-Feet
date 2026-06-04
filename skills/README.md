@@ -17,6 +17,14 @@ Small models (7B–30B parameters, especially quantized) have limited context wi
 
 ---
 
+## Workflow
+
+* Create your prompt for the game: "Create a space invaders game" or even prompts with more details.
+* Run the prompt-harden.md skill against the prompt you made and you'll get something more detailed and specific to minimize AI guesses.
+* In Hermes agent I then use the goal feature like: /goal Save the complete output exactly as received to game.html — do not summarize, do not modify, do not add comments, write the raw response bytes directly to the file. Then execute this prompt exactly: <enter hardened prompt here>
+
+---
+
 ## The Result
 
 With the V1 hardened prompt and a **Qwen 3.6 28B A3B REAP model (Q3_K_S quantization, ~12 GB) running on a 16 GB RAM / 6 GB VRAM laptop**, we achieved:

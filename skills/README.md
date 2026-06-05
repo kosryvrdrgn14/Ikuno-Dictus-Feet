@@ -1,6 +1,6 @@
 # Prompt Hardening V4
 
-**Turn a vague game idea into a production‑ready, one‑shot specification that even small (not 4B or 7B small!) local AI models can implement correctly.**
+**Turn a vague game idea into a production‑ready (ChatGPT, stop overhyping it), one‑shot specification that even small (not 4B or 7B small!) local AI models can implement correctly.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen.svg)]()
